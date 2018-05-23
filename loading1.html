@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loading</title>
+</head>
+<body>
+<svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="-2 -2 4 4">
+    <defs>
+        <circle id="circle-loading"  r="0.5"  fill="#ddd"></circle>
+    </defs>
+    <g class="loading">
+        <use xlink:href="#circle-loading" x="1" y="1" ></use>
+        <use xlink:href="#circle-loading" x="1" y="1" ></use>
+        <use xlink:href="#circle-loading" x="1" y="1" ></use>
+        <use xlink:href="#circle-loading" x="1" y="1" ></use>
+        <use xlink:href="#circle-loading" x="1" y="1" ></use>
+        <use xlink:href="#circle-loading" x="1" y="1" ></use>
+    </g>
+</svg>
+
+</body>
+<style>
+    .loading>use {
+        animation: rotate-forever 1.8s  linear infinite;
+    }
+    .loading>use:nth-child(2) {
+        animation-delay:0.3s;
+    }
+    .loading>use:nth-child(3) {
+        animation-delay:0.6s;
+    }
+    .loading>use:nth-child(4) {
+        animation-delay:0.9s;
+    }
+    .loading>use:nth-child(5) {
+        animation-delay:1.2s;
+    }
+    .loading>use:nth-child(6) {
+        animation-delay:1.5s;
+    }
+    @keyframes rotate-forever {
+        from {transform: rotate(0deg);}
+        to {transform: rotate(360deg);}
+    }
+</style>
+</html>
