@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loading</title>
+</head>
+<body>
+<svg class="editorial" xmlns="http://www.w3.org/2000/svg" width="100px"
+     height="100px">
+    <defs>
+        <circle id="circle-loading" r="10" fill="#ddd"></circle>
+    </defs>
+    <g class="loading">
+        <use xlink:href="#circle-loading" x="20" y="50"></use>
+        <use xlink:href="#circle-loading" x="40" y="50"></use>
+        <use xlink:href="#circle-loading" x="60" y="50"></use>
+        <use xlink:href="#circle-loading" x="80" y="50"></use>
+    </g>
+</svg>
+</body>
+<style>
+    .loading > use:nth-child(1) {
+        animation: scale-loading 2s linear infinite;
+        transform-origin: 20px 50%;
+    }
+
+    .loading > use:nth-child(2) {
+        animation: scale-loading2 2s linear infinite;
+        transform-origin: 40px 50%;
+
+    }
+
+    .loading > use:nth-child(3) {
+        animation: scale-loading3 2s linear infinite;
+        transform-origin: 60px 50%;
+
+    }
+
+    .loading > use:nth-child(4) {
+        animation: scale-loading4 2s linear infinite;
+        transform-origin: 80px 50%;
+
+    }
+
+    @keyframes scale-loading {
+        0% {
+            transform: scale(0, 0);
+        }
+        20% {
+            transform: scale(1, 1);
+        }
+        40% {
+            transform: scale(0, 0);
+        }
+        100% {
+            transform: scale(0, 0);
+        }
+    }
+
+    @keyframes scale-loading2 {
+        0% {
+            transform: scale(0, 0);
+        }
+        20% {
+            transform: scale(0, 0);
+        }
+        40% {
+            transform: scale(1, 1);
+        }
+        60% {
+            transform: scale(0, 0);
+        }
+        100% {
+            transform: scale(0, 0);
+        }
+    }
+
+    @keyframes scale-loading3 {
+        0% {
+            transform: scale(0, 0);
+        }
+        40% {
+            transform: scale(0, 0);
+
+        }
+        60% {
+            transform: scale(1, 1);
+
+        }
+        80% {
+            transform: scale(0, 0);
+        }
+        100% {
+            transform: scale(0, 0);
+
+        }
+    }
+
+    @keyframes scale-loading4 {
+        0% {
+            transform: scale(0, 0);
+        }
+        60% {
+            transform: scale(0, 0);
+
+        }
+        80% {
+            transform: scale(1, 1);
+
+        }
+        100% {
+            transform: scale(0, 0);
+
+        }
+    }
+
+</style>
+</html>
