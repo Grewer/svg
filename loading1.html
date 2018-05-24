@@ -5,43 +5,100 @@
     <title>loading</title>
 </head>
 <body>
-<svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="-2 -2 4 4">
+<svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64"
+     height="64" viewBox="-2 -2 4 4">
     <defs>
-        <circle id="circle-loading"  r="0.5"  fill="#ddd"></circle>
+        <circle id="circle-loading" r="0.5" fill="#ddd"></circle>
     </defs>
     <g class="loading">
-        <use xlink:href="#circle-loading" x="1" y="1" ></use>
-        <use xlink:href="#circle-loading" x="1" y="1" ></use>
-        <use xlink:href="#circle-loading" x="1" y="1" ></use>
-        <use xlink:href="#circle-loading" x="1" y="1" ></use>
-        <use xlink:href="#circle-loading" x="1" y="1" ></use>
-        <use xlink:href="#circle-loading" x="1" y="1" ></use>
+        <use xlink:href="#circle-loading" x="1" y="1"></use>
+        <use xlink:href="#circle-loading" x="1" y="1"></use>
+        <use xlink:href="#circle-loading" x="1" y="1"></use>
+        <use xlink:href="#circle-loading" x="1" y="1"></use>
+        <use xlink:href="#circle-loading" x="1" y="1"></use>
+        <use xlink:href="#circle-loading" x="1" y="1"></use>
     </g>
 </svg>
 
 </body>
 <style>
-    .loading>use {
-        animation: rotate-forever 1.8s  linear infinite;
+
+    .loading > use:nth-child(1) {
+        animation: rotate-forever 1.8s linear infinite;
     }
-    .loading>use:nth-child(2) {
-        animation-delay:0.3s;
+
+    .loading > use:nth-child(2) {
+        animation: rotate-forever2 1.8s linear infinite;
     }
-    .loading>use:nth-child(3) {
-        animation-delay:0.6s;
+
+    .loading > use:nth-child(3) {
+        animation: rotate-forever3 1.8s linear infinite;
     }
-    .loading>use:nth-child(4) {
-        animation-delay:0.9s;
+
+    .loading > use:nth-child(4) {
+        animation: rotate-forever4 1.8s linear infinite;
     }
-    .loading>use:nth-child(5) {
-        animation-delay:1.2s;
+
+    .loading > use:nth-child(5) {
+        animation: rotate-forever5 1.8s linear infinite;
     }
-    .loading>use:nth-child(6) {
-        animation-delay:1.5s;
+
+    .loading > use:nth-child(6) {
+        animation: rotate-forever6 1.8s linear infinite;
     }
+
     @keyframes rotate-forever {
-        from {transform: rotate(0deg);}
-        to {transform: rotate(360deg);}
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes rotate-forever2 {
+        from {
+            transform: rotate(60deg);
+        }
+        to {
+            transform: rotate(420deg);
+        }
+    }
+
+    @keyframes rotate-forever3 {
+        from {
+            transform: rotate(120deg);
+        }
+        to {
+            transform: rotate(480deg);
+        }
+    }
+
+    @keyframes rotate-forever4 {
+        from {
+            transform: rotate(180deg);
+        }
+        to {
+            transform: rotate(540deg);
+        }
+    }
+
+    @keyframes rotate-forever5 {
+        from {
+            transform: rotate(240deg);
+        }
+        to {
+            transform: rotate(600deg);
+        }
+    }
+
+    @keyframes rotate-forever6 {
+        from {
+            transform: rotate(300deg);
+        }
+        to {
+            transform: rotate(660deg);
+        }
     }
 </style>
 </html>
