@@ -10,3 +10,4 @@
 - [loading2](https://grewer.github.io/svg/loading2.html)
 - [loading3](https://grewer.github.io/svg/loading3.html)
 - [loading4](https://grewer.github.io/svg/loading4.html)
+- [loading5](https://grewer.github.io/svg/loading5.html)
