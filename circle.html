@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>circle</title>
+</head>
+<body>
+<svg class="editorial" xmlns="http://www.w3.org/2000/svg" width="500" height="300">
+    <defs>
+        <radialGradient id="color" fy="0.05" r="0.95" cy="0.23" cx="0.5">
+            <stop offset="0%" stop-color="rgba(255, 255, 255, .9)"></stop>
+            <stop offset="70%" stop-color="rgba(43, 130, 255, 0.4)"></stop>
+            <stop offset="100%" stop-color="#575300" stop-opacity=".9"></stop>
+        </radialGradient>
+    </defs>
+    <g text-anchor="middle" dominant-baseline="middle">
+        <circle r="50" cx="50" cy="50"
+                fill="url(#color)"></circle>
+        <text x="50" y="50" fill-rule="evenodd" fill="white">fsa</text>
+    </g>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny">
+    <defs>
+        <radialGradient id="grad1" cx="0.5" cy="0.7" r="0.7" fx="0.5" fy="0.4">
+            <stop offset="0" stop-color="rgb(255,255,255)"></stop>
+            <stop offset="1.5" stop-color="rgba(43, 130, 255, 0.4)"></stop>
+        </radialGradient>
+    </defs>
+    <circle cx="100" cy="80" r="42" fill="url(#grad1)"></circle>
+</svg>
+</body>
+</html>
