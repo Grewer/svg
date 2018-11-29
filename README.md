@@ -5,9 +5,7 @@
 可自由使用
 
 查看地址:
-- wave   
-    <iframe id="svg" name="google" src="https://grewer.github.io/svg/wave.html"  style="width:99%;" height=400></iframe>
-    <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+- wave   <svg class="editorial" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
          viewBox="0 24 150 28" preserveAspectRatio="none">
         <defs>
             <path id="gentle-wave"
