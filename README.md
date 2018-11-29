@@ -5,7 +5,8 @@
 可自由使用
 
 查看地址:
-- [wave](https://grewer.github.io/svg/wave.html)
+- wave 
+    <img src="https://grewer.github.io/svg/wave.html"> 
 - [loading1](https://grewer.github.io/svg/loading1.html)
 - [loading2](https://grewer.github.io/svg/loading2.html)
 - [loading3](https://grewer.github.io/svg/loading3.html)
