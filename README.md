@@ -6,7 +6,7 @@
 
 查看地址:
 - wave 
-    <img src="https://grewer.github.io/svg/wave.html"> 
+    <iframe src="https://grewer.github.io/svg/wave.html"></iframe>
 - [loading1](https://grewer.github.io/svg/loading1.html)
 - [loading2](https://grewer.github.io/svg/loading2.html)
 - [loading3](https://grewer.github.io/svg/loading3.html)
